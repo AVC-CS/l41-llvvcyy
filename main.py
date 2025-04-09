@@ -3,15 +3,9 @@ def main():
     N = int(input('Enter the number N: '))
     result = []
 
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    result.extend(2 ** i for i in range(N + 1))
+    print(" ".join(map(str, result)))
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return result
 
 
